@@ -1,0 +1,57 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/opt/eosio.cdt/opt/eosio.cdt/include/eosiolib/contracts/**",
+                "/usr/local/opt/eosio.cdt/opt/eosio.cdt/include/eosiolib/core/**"
+            ],
+            "defines": [
+                "uint128_t=__uint128_t",
+                "int128_t=__int128_t"
+            ],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/local/bin/eosio-cpp",
+            "cStandard": "c17",
+            "cppStandard": "c++98",
+            "intelliSenseMode": "macos-clang-arm64"
+        },
+        {
+            "name": "Default",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++98",
+            "intelliSenseMode": "macos-clang-arm64"
+        },
+        {
+            "name": "eosiocpp",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/opt/eosio.cdt/opt/eosio.cdt/include/eosiolib/contracts/**",
+                "/usr/local/opt/eosio.cdt/opt/eosio.cdt/include/eosiolib/core/**"
+            ],
+            "defines": [
+                "uint128_t=__uint128_t",
+                "int128_t=__int128_t"
+            ],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/local/bin/eosio-cpp",
+            "cStandard": "c17",
+            "cppStandard": "c++98",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
